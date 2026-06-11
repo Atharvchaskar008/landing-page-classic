@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Classified repository of cybernetic augmentation modules and neural modifications. Access restricted to clearance level Ω-7 or higher.">
+    <title>AUGMENTATION MODULES | CLASSIFIED</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400&family=Exo+2:wght@500;600&family=Orbitron:wght@600;700;800&family=Share+Tech+Mono&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scan-line overlay -->
+    <div class="scanline-overlay" aria-hidden="true"></div>
+
+    <!-- Top HUD Bar -->
+    <nav id="hud-nav" class="hud-nav">
+        <div class="hud-left">
+            <span class="level-6 status-indicator">SYS.ONLINE</span>
+            <span class="level-6">SEC-LEVEL: OMEGA</span>
+        </div>
+        <div class="hud-center">
+            <span id="hud-clock" class="level-6 hud-clock">00:00:00</span>
+        </div>
+        <div class="hud-right">
+            <a href="#modules" class="level-9">DATABASE</a>
+            <a href="#timeline" class="level-9">ARCHIVE</a>
+            <a href="#terminal" class="level-9">TERMINAL</a>
+            <a href="#" class="level-9">LOGOUT</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- HERO SECTION                                -->
+        <!-- ═══════════════════════════════════════════ -->
+        <header id="hero" class="hero reveal">
+            <div class="military-stamp">
+                <span class="level-5">// SYSTEM.MODULES.LOAD</span>
+            </div>
+            <h1 class="level-0 glitch-text" data-text="HUMANITY. EVOLVED.">HUMANITY.<br>EVOLVED.</h1>
+            <p class="level-4 hero-desc">Classified repository of cybernetic augmentations and neural modifications. Access restricted to personnel with clearance level Ω-7 or higher.</p>
+            <div class="hero-stats">
+                <div class="stat-block reveal">
+                    <span class="level-7 counter" data-target="9997" data-suffix="%" data-decimal="2">0</span>
+                    <span class="level-6">INTEGRATION RATE</span>
+                </div>
+                <div class="stat-block reveal">
+                    <span class="level-7 counter" data-target="2847">0</span>
+                    <span class="level-6">ACTIVE SUBJECTS</span>
+                </div>
+                <div class="stat-block reveal">
+                    <span class="level-7">Ω-7</span>
+                    <span class="level-6">CLEARANCE REQ</span>
+                </div>
+            </div>
+            <button id="cta-button" class="cta-button level-8">INITIALIZE ACCESS CORE</button>
+        </header>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- AUGMENTATION MODULES                        -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="modules" class="modules-section">
+            <div class="section-label reveal">
+                <span class="level-5">// SECTION.02 — MODULE REGISTRY</span>
+            </div>
+            <h2 class="level-1 reveal">AUGMENTATION MODULES</h2>
+
+            <!-- Group 1: Core Architecture -->
+            <div class="module-group">
+                <h3 class="level-2 reveal">CORE ARCHITECTURE</h3>
+                <div class="grid">
+                    <article class="card reveal">
+                        <div class="card-header">
+                            <span class="level-5">ID: N-CORE-X1</span>
+                            <span class="level-6">V: 2.0.4</span>
+                        </div>
+                        <div class="card-threat">
+                            <span class="threat-badge threat-high">THREAT: HIGH</span>
+                            <span class="status-badge status-active">ACTIVE</span>
+                        </div>
+                        <h4 class="level-3">NEURAL CO-PROCESSOR</h4>
+                        <p class="level-4">Enhances synaptic response times by mapping supplementary digital pathways parallel to the organic nervous system.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar" data-progress="94"></div>
+                            <span class="level-6">INTEGRATION: 94%</span>
+                        </div>
+                        <button class="card-action level-8">ACCESS LOGS</button>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-header">
+                            <span class="level-5">ID: S-SKEL-M7</span>
+                            <span class="level-6">V: 3.1.2</span>
+                        </div>
+                        <div class="card-threat">
+                            <span class="threat-badge threat-critical">THREAT: CRITICAL</span>
+                            <span class="status-badge status-active">ACTIVE</span>
+                        </div>
+                        <h4 class="level-3">TITANIUM ENDOSKELETON</h4>
+                        <p class="level-4">Full skeletal reinforcement using bio-compatible titanium alloy lattice. Increases structural integrity by 340%.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar" data-progress="87"></div>
+                            <span class="level-6">INTEGRATION: 87%</span>
+                        </div>
+                        <button class="card-action level-8">ACCESS LOGS</button>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-header">
+                            <span class="level-5">ID: C-CIRC-R3</span>
+                            <span class="level-6">V: 1.8.0</span>
+                        </div>
+                        <div class="card-threat">
+                            <span class="threat-badge threat-moderate">THREAT: MODERATE</span>
+                            <span class="status-badge status-standby">STANDBY</span>
+                        </div>
+                        <h4 class="level-3">SYNTHETIC BLOOD PUMP</h4>
+                        <p class="level-4">Augmented cardiovascular system with nano-filtered synthetic plasma. Enables operation in extreme environments.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar" data-progress="72"></div>
+                            <span class="level-6">INTEGRATION: 72%</span>
+                        </div>
+                        <button class="card-action level-8">ACCESS LOGS</button>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Group 2: Sensory Enhancement -->
+            <div class="module-group">
+                <h3 class="level-2 reveal">SENSORY ENHANCEMENT</h3>
+                <div class="grid">
+                    <article class="card reveal">
+                        <div class="card-header">
+                            <span class="level-5">ID: O-SENSE-V9</span>
+                            <span class="level-6">V: 1.1.0</span>
+                        </div>
+                        <div class="card-threat">
+                            <span class="threat-badge threat-high">THREAT: HIGH</span>
+                            <span class="status-badge status-active">ACTIVE</span>
+                        </div>
+                        <h4 class="level-3">OPTIC OVERLAY MATRIX</h4>
+                        <p class="level-4">Provides real-time tactical data projection directly onto the retina, bypassing the visual cortex for instantaneous processing.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar" data-progress="98"></div>
+                            <span class="level-6">INTEGRATION: 98%</span>
+                        </div>
+                        <button class="card-action level-8">ACCESS LOGS</button>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-header">
+                            <span class="level-5">ID: A-AUD-K2</span>
+                            <span class="level-6">V: 4.0.1</span>
+                        </div>
+                        <div class="card-threat">
+                            <span class="threat-badge threat-moderate">THREAT: MODERATE</span>
+                            <span class="status-badge status-active">ACTIVE</span>
+                        </div>
+                        <h4 class="level-3">COCHLEAR AMPLIFIER NET</h4>
+                        <p class="level-4">Replaces organic auditory pathways with directional sensor array. Capable of isolating frequencies from 0.1Hz to 200kHz.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar" data-progress="91"></div>
+                            <span class="level-6">INTEGRATION: 91%</span>
+                        </div>
+                        <button class="card-action level-8">ACCESS LOGS</button>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-header">
+                            <span class="level-5">ID: D-DERM-P5</span>
+                            <span class="level-6">V: 2.3.7</span>
+                        </div>
+                        <div class="card-threat">
+                            <span class="threat-badge threat-critical">THREAT: CRITICAL</span>
+                            <span class="status-badge status-classified">CLASSIFIED</span>
+                        </div>
+                        <h4 class="level-3">DERMAL SENSOR MESH</h4>
+                        <p class="level-4">Sub-epidermal nanotube mesh providing 360° haptic awareness. Detects atmospheric changes, EM fields, and biological signatures.</p>
+                        <div class="card-progress">
+                            <div class="progress-bar" data-progress="63"></div>
+                            <span class="level-6">INTEGRATION: 63%</span>
+                        </div>
+                        <button class="card-action level-8">ACCESS LOGS</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- SYSTEM SPECIFICATIONS                       -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="specs" class="specs-section">
+            <div class="section-divider"></div>
+            <div class="section-label reveal">
+                <span class="level-5">// SECTION.03 — SYSTEM METRICS</span>
+            </div>
+            <h2 class="level-1 reveal">SYSTEM SPECIFICATIONS</h2>
+
+            <div class="specs-grid">
+                <div class="spec-block reveal">
+                    <span class="level-7 counter" data-target="2847">0</span>
+                    <span class="level-6">ACTIVE SUBJECTS</span>
+                    <div class="spec-bar"><div class="spec-fill" data-width="85"></div></div>
+                </div>
+                <div class="spec-block reveal">
+                    <span class="level-7 counter" data-target="9997" data-suffix="%" data-decimal="2">0</span>
+                    <span class="level-6">SUCCESS RATE</span>
+                    <div class="spec-bar"><div class="spec-fill" data-width="99"></div></div>
+                </div>
+                <div class="spec-block reveal">
+                    <span class="level-7 counter" data-target="142">0</span>
+                    <span class="level-6">MODULES ONLINE</span>
+                    <div class="spec-bar"><div class="spec-fill" data-width="72"></div></div>
+                </div>
+                <div class="spec-block reveal">
+                    <span class="level-7 counter" data-target="12">0</span>
+                    <span class="level-6">CLEARANCE LEVELS</span>
+                    <div class="spec-bar"><div class="spec-fill" data-width="100"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- THREAT ASSESSMENT TIMELINE                  -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="timeline" class="timeline-section">
+            <div class="section-divider"></div>
+            <div class="section-label reveal">
+                <span class="level-5">// SECTION.04 — CHRONOLOGICAL ARCHIVE</span>
+            </div>
+            <h2 class="level-1 reveal">THREAT ASSESSMENT TIMELINE</h2>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-entry timeline-left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="level-6 timeline-date">2019.03.14</span>
+                        <h4 class="level-3">PROJECT GENESIS INITIATED</h4>
+                        <p class="level-4">First successful neural-digital interface prototype activated. Subject A-001 achieved 12% cognitive enhancement within 48 hours of integration.</p>
+                        <span class="threat-badge threat-moderate">CLEARANCE: GAMMA</span>
+                    </div>
+                </div>
+
+                <div class="timeline-entry timeline-right reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="level-6 timeline-date">2020.11.27</span>
+                        <h4 class="level-3">ENDOSKELETON TRIALS BEGIN</h4>
+                        <p class="level-4">Phase II trials for titanium endoskeleton reinforcement. 23 subjects successfully underwent full skeletal integration with zero rejection events.</p>
+                        <span class="threat-badge threat-high">CLEARANCE: DELTA</span>
+                    </div>
+                </div>
+
+                <div class="timeline-entry timeline-left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="level-6 timeline-date">2022.06.08</span>
+                        <h4 class="level-3">INCIDENT BLACKOUT-7</h4>
+                        <p class="level-4">██████████ resulted in temporary ██████ of ████ subjects. Containment protocols enacted. Full details require Ω-9 clearance.</p>
+                        <span class="threat-badge threat-critical">CLEARANCE: OMEGA</span>
+                    </div>
+                </div>
+
+                <div class="timeline-entry timeline-right reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="level-6 timeline-date">2024.01.15</span>
+                        <h4 class="level-3">SENSORY MESH DEPLOYMENT</h4>
+                        <p class="level-4">Global rollout of dermal sensor mesh to all active operatives. Field reports indicate 340% improvement in threat detection response time.</p>
+                        <span class="threat-badge threat-high">CLEARANCE: DELTA</span>
+                    </div>
+                </div>
+
+                <div class="timeline-entry timeline-left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="level-6 timeline-date">2025.09.30</span>
+                        <h4 class="level-3">PROTOCOL ASCENSION</h4>
+                        <p class="level-4">Full autonomous augmentation management system deployed. Human oversight reduced to monitoring-only. System self-optimization rate exceeds projections by 200%.</p>
+                        <span class="threat-badge threat-critical">CLEARANCE: OMEGA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- OPERATIVE PROFILES                          -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="operatives" class="operatives-section">
+            <div class="section-divider"></div>
+            <div class="section-label reveal">
+                <span class="level-5">// SECTION.05 — PERSONNEL FILES</span>
+            </div>
+            <h2 class="level-1 reveal">OPERATIVE PROFILES</h2>
+
+            <div class="operatives-grid">
+                <div class="operative-card reveal">
+                    <div class="operative-img-wrap">
+                        <img src="assets/operative_alpha.png" alt="Operative Alpha portrait" class="operative-img">
+                        <div class="operative-scan"></div>
+                    </div>
+                    <div class="operative-data">
+                        <div class="operative-header">
+                            <h4 class="level-3">CDR. ████ VOSS</h4>
+                            <span class="status-badge status-active">ACTIVE</span>
+                        </div>
+                        <div class="operative-meta">
+                            <span class="level-6">CALLSIGN: ALPHA</span>
+                            <span class="level-6">ID: OP-7741-A</span>
+                        </div>
+                        <div class="operative-stats">
+                            <div class="op-stat">
+                                <span class="level-6">NEURAL COMPAT.</span>
+                                <div class="op-stat-bar"><div class="op-stat-fill" data-width="96"></div></div>
+                                <span class="level-6">96%</span>
+                            </div>
+                            <div class="op-stat">
+                                <span class="level-6">AUGMENT LOAD</span>
+                                <div class="op-stat-bar"><div class="op-stat-fill" data-width="78"></div></div>
+                                <span class="level-6">78%</span>
+                            </div>
+                            <div class="op-stat">
+                                <span class="level-6">THREAT LEVEL</span>
+                                <div class="op-stat-bar op-stat-danger"><div class="op-stat-fill" data-width="91"></div></div>
+                                <span class="level-6">91%</span>
+                            </div>
+                        </div>
+                        <div class="operative-modules level-6">
+                            MODULES: N-CORE-X1, S-SKEL-M7, O-SENSE-V9
+                        </div>
+                    </div>
+                </div>
+
+                <div class="operative-card reveal">
+                    <div class="operative-img-wrap">
+                        <img src="assets/operative_bravo.png" alt="Operative Bravo portrait" class="operative-img">
+                        <div class="operative-scan"></div>
+                    </div>
+                    <div class="operative-data">
+                        <div class="operative-header">
+                            <h4 class="level-3">LT. ██████ KIRA</h4>
+                            <span class="status-badge status-standby">STANDBY</span>
+                        </div>
+                        <div class="operative-meta">
+                            <span class="level-6">CALLSIGN: BRAVO</span>
+                            <span class="level-6">ID: OP-3382-B</span>
+                        </div>
+                        <div class="operative-stats">
+                            <div class="op-stat">
+                                <span class="level-6">NEURAL COMPAT.</span>
+                                <div class="op-stat-bar"><div class="op-stat-fill" data-width="88"></div></div>
+                                <span class="level-6">88%</span>
+                            </div>
+                            <div class="op-stat">
+                                <span class="level-6">AUGMENT LOAD</span>
+                                <div class="op-stat-bar"><div class="op-stat-fill" data-width="65"></div></div>
+                                <span class="level-6">65%</span>
+                            </div>
+                            <div class="op-stat">
+                                <span class="level-6">THREAT LEVEL</span>
+                                <div class="op-stat-bar op-stat-danger"><div class="op-stat-fill" data-width="74"></div></div>
+                                <span class="level-6">74%</span>
+                            </div>
+                        </div>
+                        <div class="operative-modules level-6">
+                            MODULES: A-AUD-K2, D-DERM-P5, C-CIRC-R3
+                        </div>
+                    </div>
+                </div>
+
+                <div class="operative-card reveal">
+                    <div class="operative-img-wrap">
+                        <img src="assets/operative_charlie.png" alt="Operative Charlie portrait" class="operative-img">
+                        <div class="operative-scan"></div>
+                    </div>
+                    <div class="operative-data">
+                        <div class="operative-header">
+                            <h4 class="level-3">SGT. ████████ NULL</h4>
+                            <span class="status-badge status-classified">CLASSIFIED</span>
+                        </div>
+                        <div class="operative-meta">
+                            <span class="level-6">CALLSIGN: CHARLIE</span>
+                            <span class="level-6">ID: ██-████-█</span>
+                        </div>
+                        <div class="operative-stats">
+                            <div class="op-stat">
+                                <span class="level-6">NEURAL COMPAT.</span>
+                                <div class="op-stat-bar"><div class="op-stat-fill" data-width="100"></div></div>
+                                <span class="level-6">??%</span>
+                            </div>
+                            <div class="op-stat">
+                                <span class="level-6">AUGMENT LOAD</span>
+                                <div class="op-stat-bar"><div class="op-stat-fill" data-width="100"></div></div>
+                                <span class="level-6">??%</span>
+                            </div>
+                            <div class="op-stat">
+                                <span class="level-6">THREAT LEVEL</span>
+                                <div class="op-stat-bar op-stat-danger"><div class="op-stat-fill" data-width="100"></div></div>
+                                <span class="level-6">MAX</span>
+                            </div>
+                        </div>
+                        <div class="operative-modules level-6">
+                            MODULES: ██████████████████████
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- SYSTEM TERMINAL                             -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="terminal" class="terminal-section">
+            <div class="section-divider"></div>
+            <div class="section-label reveal">
+                <span class="level-5">// SECTION.06 — LIVE INTERFACE</span>
+            </div>
+            <h2 class="level-1 reveal">SYSTEM TERMINAL</h2>
+
+            <div class="terminal reveal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="term-dot term-dot-red"></span>
+                        <span class="term-dot term-dot-yellow"></span>
+                        <span class="term-dot term-dot-green"></span>
+                    </div>
+                    <span class="level-6">AUGMENTATION_CORE://TERMINAL_v4.2.1</span>
+                </div>
+                <div id="terminal-body" class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="term-prompt">root@augcore:~$</span>
+                        <span class="term-cmd"> system.status --verbose</span>
+                    </div>
+                </div>
+                <div class="terminal-input-line">
+                    <span class="term-prompt">root@augcore:~$</span>
+                    <span class="terminal-cursor">_</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CLASSIFIED FOOTER                           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <footer class="classified-footer">
+        <div class="footer-top-line"></div>
+        <div class="footer-content">
+            <div class="footer-classification">
+                <span class="level-5">TOP SECRET // OMEGA CLEARANCE // NOFORN</span>
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 class="level-3">DOCUMENT INFO</h4>
+                    <p class="level-6">REF: AUG-CORE-2025-Ω-7741</p>
+                    <p class="level-6">CLASSIFICATION: TOP SECRET</p>
+                    <p class="level-6">HANDLING: EYES ONLY</p>
+                    <p class="level-6">DISTRIBUTION: RESTRICTED</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="level-3">QUICK ACCESS</h4>
+                    <a href="#modules" class="level-6 footer-link">MODULE REGISTRY</a>
+                    <a href="#specs" class="level-6 footer-link">SYSTEM METRICS</a>
+                    <a href="#timeline" class="level-6 footer-link">ARCHIVE</a>
+                    <a href="#operatives" class="level-6 footer-link">PERSONNEL</a>
+                    <a href="#terminal" class="level-6 footer-link">TERMINAL</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="level-3">SYSTEM STATUS</h4>
+                    <p class="level-6"><span class="footer-status-dot online"></span> CORE SYSTEMS: NOMINAL</p>
+                    <p class="level-6"><span class="footer-status-dot online"></span> NETWORK: ENCRYPTED</p>
+                    <p class="level-6"><span class="footer-status-dot warning"></span> THREAT LEVEL: ELEVATED</p>
+                    <p class="level-6"><span class="footer-status-dot online"></span> FIREWALL: ACTIVE</p>
+                </div>
+            </div>
+            <div class="footer-redacted">
+                <p class="level-6">This document contains information affecting the national defense of <span class="redacted">UNITED STATES</span> within the meaning of the Espionage Act. The transmission or revelation of its contents in any manner to an <span class="redacted">unauthorized person</span> is prohibited by law. Unauthorized access will result in <span class="redacted">immediate termination</span> of clearance and <span class="redacted">prosecution</span> under Section <span class="redacted">████</span> of the <span class="redacted">████████████ Act</span>.</p>
+            </div>
+            <div class="footer-bottom">
+                <span class="level-6">© 2025 AUGMENTATION CORE DIVISION</span>
+                <span class="level-6">ALL RIGHTS RESERVED</span>
+                <span class="level-6" id="footer-timestamp">LAST UPDATE: --:--:--</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
